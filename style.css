@@ -13,8 +13,6 @@ body{
         box-shadow: 0 0 3px rgba(0,0,0,0.5);
     }
 
-
-
 h1{
     background: #2980b9;
     color:white;
@@ -25,8 +23,15 @@ h1{
     font-weight: normal;
 }
 
-
-
+.add{
+    float:right;
+    width:20%;
+    color: #75758A;
+    box-sizing: border-box;
+    padding:20px 30px;
+    font-size:1.8em;
+    cursor: pointer;
+}
 ul{
     list-style: none;
     margin:0;
@@ -69,8 +74,10 @@ footer a{
 
 }
 
-.fa-plus{
+.fa-lock, .fa-unlock{
     float:right;
+    cursor: pointer;
+
 }
 
 li:hover span{
@@ -86,7 +93,7 @@ li:nth-child(2n){
 input{
     font-size:1.3em;
     padding:13px 13px 13px;
-    width:100%;
+    width:80%;
     background-color:#f7f7f7;
     box-sizing:border-box;
     color:#2980b9;
